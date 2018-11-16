@@ -1,0 +1,40 @@
+
+.text-align{
+text-align: center;
+}
+.block1{
+    background-color: red;
+ 
+}
+ .image{
+     margin: 20px;
+     width: 30%;
+    height: 40%;
+     float: left;
+     
+ }
+ .block2{
+    clear: left;
+     background: magenta;
+ }
+ .block3{
+  
+     background: blue;
+ }
+ .block4{
+     background: gray;
+ }
+ .block5{
+     background: blueviolet;
+ }
+  .list{
+      list-style-type: none;
+     padding: 0px; 
+     }
+.float-h2{
+         float: left;
+         margin: 100px;
+      margin-top: 100px;
+      text-align: center;
+      font-size: 30px;
+     }
