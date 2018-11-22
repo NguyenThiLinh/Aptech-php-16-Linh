@@ -1,0 +1,25 @@
+body{
+    margin: 60px auto;
+    width: 70%;
+}
+header{
+    text-align: center;
+}
+.div-1{
+    
+    margin: 5px auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+ 
+.image{
+  height: 85%;
+     
+}
+.thong-tin-ca-nhan{
+    width: 60%;
+  background: red;
+}
+  
