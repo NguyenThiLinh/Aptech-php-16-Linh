@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+    width: 80%;
+}
+header{
+    height: 100px;
+    background: red;
+}
+
+.container{
+ margin: 0 auto; 
+     
+}
+nav{
+    height: 100px;
+    background: darkblue;
+}
+.content{
+    height: 300px;
+    display: flex;
+}
+.left{
+  
+    width: 50%;
+}
+section{
+    background: gold;
+    height: 50%;
+}
+article{
+    background: blue;
+    height: 50%;
+    
+
+}
+aside{
+ width: 50%;
+background: rosybrown;
+}
+footer{
+    height: 100px;
+    background: black;
+}
