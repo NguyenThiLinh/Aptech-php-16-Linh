@@ -5,3 +5,7 @@
  .list-group {
      list-style: none;
  }
+ 
+ .text-muted {
+     float: right;
+ }
