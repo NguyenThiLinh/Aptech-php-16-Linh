@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body style="text-align: center">
+    <img id="myImage" src="pic_bulboff.gif" alt="">
+    <button id="btn" onclick="turnLight()">On</button>
+    <script>
+        function turnLight() {
+            mg = document.getElementById("myImage");
+            if (mg.src.includes("pic_bulboff.gif")) {
+                document.getElementById("myImage").src = 'pic_bulbon.gif';
+                document.getElementById("btn").innerHTML = "OFF";
+            } else {
+                document.getElementById("myImage").src = 'pic_bulboff.gif';
+                document.getElementById("btn").innerHTML = "ON";
+            }
+        }
+    </script>
+
+    <!-- <button onclick=" turnOn()">turn on the light</button> -->
+    <!-- <button onclick="turnOff() ">turn off the light</button> -->
+
+    <!-- <script>
+        // function turnOn() {
+        //     document.getElementById('myImage').src = 'pic_bulbon.gif';
+        // }
+
+        // function turnOff() {
+        //     document.getElementById('myImage').src = 'pic_bulboff.gif';
+        // }
+    </script> -->
+</body>
+
+</html>
