@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container bg-primary d-flex" id="div1" style="height:200px"></div>
+    <button class="btn0">Get it</button>
+
+    <!-- <script>
+        $(document).ready(function() {
+            $(".btn0").click(function() {
+                $("#div1").toggleClass('d-flex');
+                $("#div1").toggleClass('d-none');
+
+                // $("#div1").removeAttr('style', '');
+            });
+        });
+    </script> -->
+
+
+
+
+    <div class="container">
+        <p>hi everyone</p>
+        <button class="btn1">Fade out</button>
+        <button class="btn2">Fade in</button>
+
+        <script>
+            $(document).ready(function() {
+                $(".btn1").click(function() {
+                    $("p").fadeOut(1000);
+                });
+                $(".btn2").click(function() {
+                    $("p").fadeIn(2000);
+                })
+            })
+        </script>
+    </div>
+
+</body>
+
+</html>
