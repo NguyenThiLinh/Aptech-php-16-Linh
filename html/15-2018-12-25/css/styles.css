@@ -1,0 +1,22 @@
+.h1 {
+    background-image: url('/15-2018-12-25/image/anh1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.h2 {
+    background-image: url('/15-2018-12-25/image/anh2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.h3 {
+    background-image: url('/15-2018-12-25/image/anh3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+body {}
